@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+	  background-image: url("images/day.jpg");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+      }
+      h1 {
+	  text-align: center;
+	  font-size: 2em;
+	  color: white;
+      }
+      #input {
+	  width: 30%;
+	  height: 37px;
+	  font-family: Source Sans Pro;
+	  font-size: 14px;
+	  margin: auto;
+      }
+      #form {
+	  text-align: center;
+	  margin: auto;
+	  width: 50%;
+      }
+      #submit {
+	  font-family: Work Sans, sans-serif;
+	  font-size: 16px;
+	  font-weight: 500;
+	  margin: auto;
+      }
+      
+      #responseField {
+	  width: 50%;
+	  height: 300px;
+	  border-bottom: 2px solid #b2bfcc;
+	  border-top: 2px solid #b2bfcc;
+	  border-radius: 5px;
+	  margin: auto;
+	  margin-top: 25px;
+	  font-family: Source Sans Pro;
+	  font-weight: 400;
+	  font-size: 30px;
+	  letter-spacing: 0.2px;
+	  text-align: center;
+	  color: white;
+	  overflow-wrap: break-word;
+	  padding: 20px;
+      }
+      #weatherPic {
+	  width: 300px;
+	  height: 300px;
+	  float: left;
+	  margin-left: 100px;
+	  position: relative;
+      }
+      #container {
+	  overflow-wrap: break-word;
+      }
+      #sunrise {
+	  float: left;
+	  position: relative;
+      }
+      #sunset {
+	  float: right;
+      }
+      #submit:hover {
+	  color: blue;
+      }
+      #row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Please Enter a City!</h1>
+    <div id="weatherPic"></div> 
+    <form id="form" autocomplete="off">
+      <input type="text" id="input" value="">
+      <button id="submit">SUBMIT</button>
+    </form>
+      <div id="responseField">
+	<img id="sunrise" src="./images/sunrise.jpg" width=100>
+	<img id="sunset" src="./images/sunset.jpg" width=100>
+      </div>
+  </body>
+  <script src="weather.js"></script>
+</html>
+

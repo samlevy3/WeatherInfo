@@ -1,0 +1,16 @@
+{
+  "name": "webserverin_node",
+  "version": "1.0.0",
+  "description": "Weather APp",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Levy",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {}
+}
