@@ -9,7 +9,7 @@
   "author": "Sam Levy",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "package.json": "^2.0.1"
   },
   "devDependencies": {}
